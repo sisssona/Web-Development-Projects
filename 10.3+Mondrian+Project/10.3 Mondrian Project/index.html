@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .container{
+      display: grid;
+      height: 100vh;
+      grid-template-columns: 1fr 1.5fr;
+      grid-template-rows: 1.2fr 1fr;
+      gap: 5px;
+      background-color: #000;
+    }
+    .item1 {
+      background-color: #E72F24;
+    }
+    .item2 {
+      background-color: #F0F1EC;
+    }
+    .item3-container {
+      display: grid;
+      background-color: #F0F1EC;
+      grid-template-rows: 10fr 0.5fr;
+      gap: 5px;
+      background-color: #000;
+    }
+
+    .item5 {
+      background-color: #F0F1EC;
+    }
+
+    .item6 {
+      background-color: #F0F1EC;
+    }
+
+    .item4-container {
+      display: grid;
+      background-color: #F0F1EC;
+      grid-template-columns: 10fr 1fr;
+      gap: 5px;
+      background-color: #000;
+    }
+
+    .item7-container{
+      background-color: #F0F1EC;
+      display: grid;
+      grid-template-rows: 10fr 0.5fr;
+      gap: 5px;
+      background-color: #000;
+    }
+
+    .item8-container{
+      display: grid;
+      background-color: #F0F1EC;
+      grid-template-rows: 3fr 7fr;
+      gap: 10px;
+      background-color: #000;
+    }
+
+    .item9 {
+      background-color: #F0F1EC;
+    }
+
+    .item10-container {
+      display: grid;
+      grid-template-columns: 6fr 4fr;
+    }
+
+    .item11 {
+      background-color: #F9D01E;
+    }
+
+    .item12 {
+      background-color: #000;
+    }
+
+    .item13 {
+      background-color: #004592;
+    }
+
+    
+    .item14 {
+      background-color: #F0F1EC;
+    }
+
+    
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class="container">
+    <div class="item1"></div>
+    <div class="item2"></div>
+    <div class="item3-container">
+      <div class="item5"></div>
+      <div class="item6"></div>
+    </div>
+    <div class="item4-container">
+      <div class="item7-container"> 
+        <div class="item9"></div>
+        <div class="item10-container">
+          <div class="item11"></div>
+          <div class="item12"></div>
+        </div>
+      </div>
+      <div class="item8-container">
+        <div class="item13"></div>
+        <div class="item14"></div>
+      </div>
+    </div>
+    
+   
+
+   </div>
+</body>
+
+</html>
