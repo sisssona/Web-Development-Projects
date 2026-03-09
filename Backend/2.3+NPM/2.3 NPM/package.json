@@ -1,13 +1,13 @@
 {
   "name": "learning-npm",
   "version": "1.0.0",
-  "description": "I'm learning NPM",
+  "description": "I'm learning about npm",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Savina I",
+  "author": "Savina Iv",
   "license": "ISC",
   "dependencies": {
     "sillyname": "^0.1.0",
